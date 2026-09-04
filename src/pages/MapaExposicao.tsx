@@ -76,7 +76,7 @@ export default function MapaExposicao({ filters }: { filters: Filters }) {
           </div>
           <div style={{ flex: 1, padding: 12, minHeight: 320, display: "flex", alignItems: "center", justifyContent: "center" }}>
             <img
-              src={mapaImg}
+              src="/mapa-exposicao.png"
               alt="Mapa de Exposição Sanitária - Volume de trânsito animal por município"
               style={{ width: "100%", height: "100%", objectFit: "contain", borderRadius: 8 }}
             />
@@ -128,7 +128,7 @@ export default function MapaExposicao({ filters }: { filters: Filters }) {
             <div className="section-card" style={{ padding: 16, background: "#f6f8f4", border: "2px dashed #d6dbd2" }}>
               <div style={{ textAlign: "center", color: "#9aaa93", fontSize: 12, padding: "20px 0" }}>
                 <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#d6dbd2" strokeWidth="1.5" style={{ margin: "0 auto 8px", display: "block" }}>
-                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" />
                 </svg>
                 <div style={{ fontWeight: 500, marginBottom: 2 }}>Nenhum município selecionado</div>
                 <div>Clique em um município no mapa para ver detalhes</div>
