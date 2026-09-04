@@ -75,7 +75,7 @@ export default function MapaExposicao({ filters }: { filters: Filters }) {
           </div>
           <div style={{ flex: 1, padding: 12, minHeight: 320, display: "flex", alignItems: "center", justifyContent: "center" }}>
             <img
-              src="/mapa-exposicao.png"
+              src="https://agenciadenoticias.ibge.gov.br/images/agenciadenoticias/geociencias/2021_11/mapa_89_750px_1.jpg"
               alt="Mapa de Exposição Sanitária - Volume de trânsito animal por município"
               style={{ width: "100%", objectFit: "contain", borderRadius: 8, maxHeight: "100%" }}
             />

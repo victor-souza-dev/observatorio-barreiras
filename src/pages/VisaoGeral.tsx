@@ -120,7 +120,7 @@ export default function VisaoGeral({ onNavigate, filters }: { onNavigate: (page:
           </div>
           <div style={{ flex: 1, padding: "8px 12px 12px", minHeight: 260, display: "flex", alignItems: "center", justifyContent: "center" }}>
             <img
-              src="/mapa-exposicao.png"
+              src="https://agenciadenoticias.ibge.gov.br/images/agenciadenoticias/geociencias/2021_11/mapa_89_750px_1.jpg"
               alt="Mapa de Exposição Sanitária - Volume de animais movimentados por município"
               style={{ width: "100%", objectFit: "contain", borderRadius: 6, cursor: "pointer", maxHeight: "100%" }}
               onClick={() => onNavigate("mapa-exposicao")}
