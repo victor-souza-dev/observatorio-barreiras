@@ -3,6 +3,7 @@ import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip as RechartTooltip,
   ResponsiveContainer, Legend
 } from "recharts";
+import mapaImg from "../imports/mapa-exposicao.png";
 import {
   kpiData, municipiosTransitoData, corredoresData, barreiraData,
   sazonalidadeData, anomaliasData
@@ -120,7 +121,7 @@ export default function VisaoGeral({ onNavigate, filters }: { onNavigate: (page:
           </div>
           <div style={{ flex: 1, padding: "8px 12px 12px", minHeight: 260, display: "flex", alignItems: "center", justifyContent: "center" }}>
             <img
-              src="/mapa-exposicao.png"
+              src={mapaImg}
               alt="Mapa de Exposição Sanitária - Volume de animais movimentados por município"
               style={{ width: "100%", height: "100%", objectFit: "contain", borderRadius: 6, cursor: "pointer" }}
               onClick={() => onNavigate("mapa-exposicao")}

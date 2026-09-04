@@ -1,4 +1,5 @@
 import { useState } from "react";
+import mapaImg from "../imports/mapa-exposicao.png";
 import { municipiosTransitoData } from "../data/mockData";
 import type { Filters } from "../App";
 
@@ -75,7 +76,7 @@ export default function MapaExposicao({ filters }: { filters: Filters }) {
           </div>
           <div style={{ flex: 1, padding: 12, minHeight: 320, display: "flex", alignItems: "center", justifyContent: "center" }}>
             <img
-              src="/mapa-exposicao.png"
+              src={mapaImg}
               alt="Mapa de Exposição Sanitária - Volume de trânsito animal por município"
               style={{ width: "100%", height: "100%", objectFit: "contain", borderRadius: 8 }}
             />
