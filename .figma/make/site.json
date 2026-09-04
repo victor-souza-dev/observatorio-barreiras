@@ -1,0 +1,10 @@
+{
+  "description": "This strategic dashboard enhances animal health oversight by providing analytical insights on sanitary risks, traffic corridors, and barrier effectiveness for agribusiness authorities.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
